@@ -83,9 +83,256 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/*----------Global Styles----------*/
+body {
+  width: 90%;
+}
+
+.content-wrapper {}
+
+h1,
+h2,
+h3,
+h4 {}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+
+
+/*------Base Header and Footer Styles------*/
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+/*------Header Styles------*/
+header {
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.logo {
+  width: 100%;
+}
+
+.header-divider {}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+
+header nav ul li {}
+
+/*------Footer Styles------*/
+footer {}
+
+footer .content-wrapper {}
+
+.footer-content {}
+
+.contact {}
+
+footer address {}
+
+footer .social {}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer h4 {}
+
+.footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {}
+
+
+/*----------Homepage Styles----------*/
+/*------Main Styles------*/
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-area .content-wrapper {
+  width: 90%;
+}
+
+main h1 {}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.form-description {}
+
+.form-description h3 {
+  width: 78%;
+}
+
+.form-description p {
+  width: 95%;
+}
+
+.form {}
+
+.form h3 {
+  width: 38%;
+}
+
+.form input {
+  width: 90%;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features .content-wrapper {}
+
+.features h2 {}
+
+.features .features-items {
+display: flex; 
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
+}
+
+.features-item-description {}
+
+.fontawesome-icon {}
+
+.features-items p {}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.reviews .content-wrapper {
+}
+
+.reviews h2 {}
+
+.reviews h3 {}
+
+.reviews p {}
+
+
+
+/*----------About Page Styles----------*/
+
+/*------Main Styles------*/
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.mission .content-wrapper {
+  
+}
+
+.mission h2 {}
+
+.mission-content {}
+
+.mission-content p {}
+
+.map {}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-section .content-wrapper {}
+
+.contact-section h2 {}
+
+.contact-content {}
+
+.contact-section h4 {}
+
+.contact-section address p {}
+
+
+/*----------FAQ Page Styles----------*/
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq h2 {}
+
+.faq-content {}
+
+.faq h4 {}
+
+.faq p {}
+
+/*----------Hompage Tablet Styles---------*/
+
+/*----------Homepage Desktop Styles----------*/
+
+/*----------About Page Tablet Styles----------*/
+
+/*----------About Page Desktop Styles---------*/
+
+/*---------FAQ Page Tablet Styles---------*/
+
+/*---------FAQ Page Desktop Styles---------*/
 
 /* ==========================================================================
    Helper classes
@@ -180,9 +427,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -193,6 +440,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -260,4 +508,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
