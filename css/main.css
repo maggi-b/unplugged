@@ -86,6 +86,9 @@ textarea {
 /*----------Global Styles----------*/
 body {}
 
+* {
+  outline: red solid 1px;
+}
 .content-wrapper {
   width: 90%;
 }
@@ -229,7 +232,6 @@ aside {
 .features .content-wrapper {}
 
 .features h2 {
-  text-align: center;
 }
 
 .features .features-items {
@@ -260,7 +262,7 @@ aside {
 }
 
 .reviews h2 {
-  width: 95%;
+  width: 100%;
 }
 
 .reviews h3 {}
