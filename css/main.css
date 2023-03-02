@@ -433,25 +433,13 @@ input #button {}
 .faq-content {
   margin-bottom: 50px;
 
-  .faq h4 {
-    width: 90%;
-  }
+.faq h4 {
+  width: 90%;
+}
 
-  .faq p {
-    width: 100%;
-  }
-
-  /*----------Hompage Tablet Styles---------*/
-
-  /*----------Homepage Desktop Styles----------*/
-
-  /*----------About Page Tablet Styles----------*/
-
-  /*----------About Page Desktop Styles---------*/
-
-  /*---------FAQ Page Tablet Styles---------*/
-
-  /*---------FAQ Page Desktop Styles---------*/
+.faq p {
+  width: 100%;
+}
 
   /* ==========================================================================
    Helper classes
@@ -541,16 +529,85 @@ input #button {}
    Modify as content requires.
    ========================================================================== */
 
-  @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /*----------Tablet Styles----------*/
+  /*-General Styles-*/
+  .content-wrapper {
+    width: 640px;
+    margin: 100px 0;
+  
+  /*-Header Styles-*/
+  header {
+
   }
 
-  @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+  header .content-wrapper {
+    width: 100%
+    margin: 33px 0;
   }
+
+  header nav {
+    width: 22%;
+  }
+
+  aside .content-wrapper {
+    margin: 50px 0;
+  }
+
+  header nav ul {
+
+  }
+
+  .header-divider {
+
+  }
+  
+  /*-Aside Styles-*/
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%
+    margin: 0;
+  }
+
+  /*-Features Styles-*/
+
+  .features-articles {
+
+  }
+
+  /*-Reviews Styles-*/
+
+  .reviews article {
+
+  }
+
+  .reviews article div {
+
+  }
+
+  /*-Footer Styles-*/
+
+  footer .content-wrapper {
+
+  }
+
+  .footer-content {
+
+  }
+
+  footer .contact {
+
+  }
+
+  footer .copyright {
+    
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /*----------Desktop Styles----------*/
+}
 
   /* ==========================================================================
    Print styles.
