@@ -84,11 +84,11 @@ textarea {
 }
 
 /*----------Global Styles----------*/
-body {
+body {}
+
+.content-wrapper {
   width: 90%;
 }
-
-.content-wrapper {}
 
 h1,
 h2,
@@ -113,9 +113,9 @@ footer {
   align-items: center;
   flex-flow: row wrap;
 }
+
 /*------Header Styles------*/
-header {
-}
+header {}
 
 header .content-wrapper {
   display: flex;
@@ -198,7 +198,8 @@ aside {
   flex-flow: row wrap;
 }
 
-.form-description {}
+.form-description {
+}
 
 .form-description h3 {
   width: 78%;
@@ -227,13 +228,15 @@ aside {
 
 .features .content-wrapper {}
 
-.features h2 {}
+.features h2 {
+  text-align: center;
+}
 
 .features .features-items {
-display: flex; 
-justify-content: center;
-align-items: center;
-flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .features-item-description {}
@@ -245,13 +248,20 @@ flex-flow: row wrap;
 .reviews {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
 .reviews .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.reviews h2 {}
+.reviews h2 {
+  width: 95%;
+}
 
 .reviews h3 {}
 
@@ -269,9 +279,7 @@ flex-flow: row wrap;
   flex-flow: row wrap;
 }
 
-.mission .content-wrapper {
-  
-}
+.mission .content-wrapper {}
 
 .mission h2 {}
 
