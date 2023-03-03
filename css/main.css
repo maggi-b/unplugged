@@ -91,31 +91,53 @@ textarea {
 
 
 /*----------Global Styles----------*/
-body {}
+html {
+  font-size: 16px;
+}
 
-* {
-  outline: red solid 1px;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.285;
+}
+
+img {}
+
+figure {}
+
+address {
+  font-style: normal;
 }
 
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
 }
-
-h1,
-h2,
-h3,
-h4 {}
-
-h1 {}
-
-h2 {}
-
-h3 {}
-
-h4 {}
-
-
 
 /*------Base Header and Footer Styles------*/
 header,
@@ -162,7 +184,6 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  list-style: none;
 }
 
 header nav ul li {}
