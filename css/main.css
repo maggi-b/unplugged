@@ -346,6 +346,11 @@ input[type=button] {
 
 }
 
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
 .features h2 {
   padding: 0;
   margin-bottom: 60px;
@@ -360,10 +365,6 @@ input[type=button] {
 
 .features-item-description {
   width: 100%;
-}
-
-.fontawesome-icon {
-  margin: 30px 0 40px 0;
 }
 
 .features article {
@@ -649,8 +650,15 @@ input[type=button] {
   }
 
   /*-Homepage Features Styles-*/
+  .features h2 {
+    margin-bottom: 20px;
+  }
 
-  .features-articles {
+  .features p {
+    width: 50%;
+  }
+
+  .features article {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -659,7 +667,7 @@ input[type=button] {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   /*-Homepage Reviews Styles-*/
@@ -836,6 +844,10 @@ input[type=button] {
 
   .features article {
     flex-basis: 33.3333%;
+  }
+
+  .features p {
+    width: 62%;
   }
 
   /*-Homepage Reviews Styles-*/
