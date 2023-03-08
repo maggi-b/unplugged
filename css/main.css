@@ -750,7 +750,6 @@ input[type=button] {
 
   .map figure {
     padding-bottom: 45.5%;
-    /*padding-bottom: 55%;*/
   }
 
   /*-About Page Contact Styles-*/
@@ -883,8 +882,7 @@ input[type=button] {
   }
 
   map figure {
-    /*padding-bottom: 37.5%;*/
-    padding-bottom: 47%;
+    padding-bottom: 37.5%;
   }
 
   .contact-content h4 {
